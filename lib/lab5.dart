@@ -72,10 +72,9 @@ class _ItemPageState extends State<ItemPage> {
                         color: Colors.pinkAccent,
                         borderRadius: BorderRadius.circular(20),
                       ),
-                      child: const Icon(
-                        Icons.shopping_bag,
-                        size: 120,
-                        color: Colors.white,
+                      child: Image.network(
+                        'https://img.pikbest.com/png-images/20240521/pink-color-luxury-womens-bag-made-of-leather-purse-isolated-on-a-transparent-background_10575643.png!bw700',
+                        fit: BoxFit.contain,
                       ),
                     ),
                     Positioned(
